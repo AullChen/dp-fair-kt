@@ -3,6 +3,7 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $required = @(
     "README.md",
+    "LICENSE",
     "requirements.txt",
     "environment.yml",
     "notebooks/fairness_dp_knowledge_tracing.ipynb",

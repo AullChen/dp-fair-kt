@@ -16,6 +16,7 @@ Code and summarized experimental artifacts for studying metric-dependent fairnes
 |   `-- validate_repository.ps1
 |-- requirements.txt
 |-- environment.yml
+|-- LICENSE
 `-- .gitignore
 ```
 
@@ -122,4 +123,4 @@ The repository contains aggregate outputs needed to audit the reported findings.
 
 ## License
 
-No software license has been selected. Add an appropriate license before publishing if reuse or redistribution should be permitted.
+This repository is released under the [MIT License](LICENSE).
