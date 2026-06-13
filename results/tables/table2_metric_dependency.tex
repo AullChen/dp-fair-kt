@@ -1,0 +1,11 @@
+\begin{tabular}{lllll}
+\toprule
+Metric family & Metric & Primary evidence & Direction & Manuscript use \\
+\midrule
+Ranking & AUC Gap & ΔAUC Gap > 0 for DKT across ε; SAKT high-vs-low IMD also positive & worsens under DP-SGD & main fairness effect \\
+Ranking & Signed AUC disparity: AUC_lowIMD - AUC_reference & SAKT shows consistent negative signed shifts; LIRE improves signed disparity in DKT & moves against low-IMD under standard DP; improves under LIRE & most interpretable direction-aware ranking metric \\
+Calibration / probability quality & Brier Score & DKT and SAKT ΔBrier > 0 under DP-SGD & overall calibration degrades & privacy-utility/calibration trade-off \\
+Threshold-rate parity & Demographic Parity Gap & completed analyses did not show the same consistent deterioration as AUC metrics & mixed / metric-dependent & supports metric-dependency rather than uniform fairness harm \\
+Threshold-rate parity & Equalized Odds / Opportunity Gap & completed analyses did not show the same consistent deterioration as AUC metrics & mixed / metric-dependent & supports metric-dependency rather than uniform fairness harm \\
+\bottomrule
+\end{tabular}

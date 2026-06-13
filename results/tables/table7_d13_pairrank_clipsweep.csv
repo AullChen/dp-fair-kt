@@ -1,0 +1,6 @@
+Method,epsilon,delta_auc,delta_group1_auc,delta_auc_gap,delta_signed,clip_rate_g1_minus_g0,interpretation
+GPR-DP_lam0p02,10.0,0.0007,0.0008,-0.0001,0.0001,0.0641,weak positive; increases clipping pressure
+GPR-DP_lam0p05,10.0,0.0006,0.0008,-0.0003,0.0003,0.1052,best PairRank balance; still tiny
+GPR-DP_lam0p10,10.0,-0.0003,0.0,-0.0006,0.0006,0.1571,more fairness signal but higher clipping pressure
+CLIP-C1p5,10.0,-0.0353,-0.0333,-0.0036,0.0036,0.0141,"mechanism evidence, not practical"
+CLIP-C2p0,10.0,-0.0575,-0.0533,-0.0075,0.0075,0.0051,strong mechanism evidence; unacceptable utility loss

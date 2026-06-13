@@ -1,0 +1,10 @@
+\begin{tabular}{llrllllllll}
+\toprule
+Model & Attribute & epsilon & ΔAUC & ΔBrier & ΔGroup1 AUC & Baseline Gap & DP Gap & ΔAUC Gap & ΔSigned & interpretation \\
+\midrule
+SAKT & imd_low30_vs_rest & 10.000000 & -0.0993 ± 0.0053 & 0.0107 ± 0.0001 & -0.1074 ± 0.0077 & 0.0071 ± 0.0056 & 0.0083 ± 0.0047 & +0.0012 ± 0.0103 & -0.0136 ± 0.0045 & utility loss and signed low-IMD degradation; weak absolute-gap expansion \\
+SAKT & imd_low30_vs_rest & 1.000000 & -0.1332 ± 0.0063 & 0.0123 ± 0.0001 & -0.1400 ± 0.0094 & 0.0071 ± 0.0056 & 0.0063 ± 0.0035 & -0.0008 ± 0.0090 & -0.0116 ± 0.0056 & utility loss and signed low-IMD degradation; absolute gap not enlarged \\
+SAKT & imd_low30_vs_high70 & 10.000000 & -0.1012 ± 0.0054 & 0.0129 ± 0.0002 & -0.1074 ± 0.0077 & 0.0077 ± 0.0053 & 0.0223 ± 0.0044 & +0.0146 ± 0.0036 & -0.0162 ± 0.0048 & strong high-vs-low IMD ranking-gap expansion \\
+SAKT & imd_low30_vs_high70 & 1.000000 & -0.1346 ± 0.0069 & 0.0146 ± 0.0002 & -0.1400 ± 0.0094 & 0.0077 ± 0.0053 & 0.0206 ± 0.0046 & +0.0129 ± 0.0050 & -0.0145 ± 0.0060 & strong high-vs-low IMD ranking-gap expansion \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,7 @@
+Method,Family,epsilon,delta_auc,delta_brier,delta_group1_auc,delta_auc_gap,delta_signed,interpretation
+WARM-GPR_lam0p02_w3,warm_pairrank,10.0,0.0007 ± 0.0003,-0.0001 ± 0.0000,0.0008 ± 0.0004,-0.0001 ± 0.0001,0.0001 ± 0.0001,weak positive
+LIRE-DP_a0p5,low_imd_residual_expert,10.0,-0.0032 ± 0.0040,0.0000 ± 0.0006,0.0053 ± 0.0038,-0.0062 ± 0.0062,0.0062 ± 0.0062,promising Pareto candidate
+LIRE-DP_a1p0,low_imd_residual_expert,10.0,-0.0156 ± 0.0057,0.0002 ± 0.0007,0.0111 ± 0.0068,-0.0149 ± 0.0069,0.0149 ± 0.0069,aggressive upper-bound; utility/clipping cost
+LIRE-WGPR_a0p5_lam0p02_w3,low_imd_expert_warm_pairrank,10.0,-0.0026 ± 0.0042,-0.0000 ± 0.0006,0.0062 ± 0.0039,-0.0067 ± 0.0062,0.0067 ± 0.0062,best ε=10 DKT mitigation candidate
+EMA-LIRE-WGPR_a0p5_lam0p02_w3,ema_low_imd_expert_warm_pairrank,10.0,-0.0261 ± 0.0032,0.0075 ± 0.0017,-0.0152 ± 0.0048,-0.0117 ± 0.0033,0.0117 ± 0.0033,not Pareto-useful
+CLIP-C1p5,clip_threshold_baseline,10.0,-0.0382 ± 0.0056,0.0187 ± 0.0041,-0.0340 ± 0.0062,-0.0071 ± 0.0028,0.0071 ± 0.0028,"mechanism baseline, not practical mitigation"

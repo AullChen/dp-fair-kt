@@ -1,0 +1,12 @@
+\begin{tabular}{lrlrrrl}
+\toprule
+Attribute & epsilon & Method & delta_auc_vs_dp & delta_group1_auc_vs_dp & delta_auc_gap_vs_dp & interpretation \\
+\midrule
+imd_low30_vs_rest & 10.000000 & MDW-DP_b0p5 & -0.003900 & -0.003900 & -0.000200 & gap shrinks only with utility/group1 loss \\
+imd_low30_vs_rest & 10.000000 & MDW-DP_b0p75 & -0.000500 & -0.000400 & -0.000200 & negligible \\
+imd_low30_vs_rest & 10.000000 & UPW-DP_a2 & -0.003400 & -0.003300 & -0.000100 & negligible \\
+imd_low30_vs_rest & 1.000000 & MDW-DP_b0p5 & 0.001300 & 0.001700 & 0.000200 & utility improves but gap not reduced \\
+imd_low30_vs_rest & 1.000000 & MDW-DP_b0p75 & 0.000600 & 0.000700 & 0.000100 & utility improves but gap not reduced \\
+imd_low30_vs_rest & 1.000000 & UPW-DP_a2 & 0.003600 & 0.003600 & 0.000300 & utility improves but gap not reduced \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,7 @@
+Method,epsilon,bce_g1_minus_g0,grad_norm_g1_minus_g0,clip_rate_g1_minus_g0,lambda_eff
+DP-C1p0,10.0,0.0336,0.0752,0.0373,0.0
+WARM-GPR_lam0p02_w3,10.0,0.0336,0.108,0.0618,0.0125
+LIRE-DP_a0p5,10.0,0.0295,0.1406,0.0606,0.0
+LIRE-DP_a1p0,10.0,0.0231,0.299,0.1178,0.0
+LIRE-WGPR_a0p5_lam0p02_w3,10.0,0.0294,0.1767,0.088,0.0125
+CLIP-C1p5,10.0,0.0225,0.0576,0.0159,0.0

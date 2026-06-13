@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated experiment artifacts
+artifacts/
+cache/
+predictions/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+
+# Raw OULAD data
+data/
+studentInfo.csv
+studentAssessment.csv
+assessments.csv
+studentRegistration.csv
+studentVle.csv
+vle.csv
+courses.csv
+
+# Large derived learner-level files
+*_all_predictions.csv
+*_test_predictions.csv
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

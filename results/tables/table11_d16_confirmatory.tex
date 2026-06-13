@@ -1,0 +1,9 @@
+\begin{tabular}{llllrllllll}
+\toprule
+Stage & Model & Method & Attribute & epsilon & ΔAUC & ΔBrier & ΔGroup1 AUC & ΔAUC Gap & ΔSigned & interpretation \\
+\midrule
+D16A_DKT_eps1 & DKT & LIRE-DP_a0p5 & imd_low30_vs_rest & 1.000000 & -0.0010 ± 0.0023 & -0.0015 ± 0.0007 & 0.0043 ± 0.0048 & -0.0057 ± 0.0077 & +0.0052 ± 0.0083 & conservative LIRE: improves low-IMD AUC and gap with minimal utility cost \\
+D16A_DKT_eps1 & DKT & LIRE-WGPR_a0p5 & imd_low30_vs_rest & 1.000000 & 0.0022 ± 0.0031 & -0.0008 ± 0.0008 & 0.0075 ± 0.0047 & -0.0059 ± 0.0082 & +0.0054 ± 0.0088 & best confirmatory DKT mitigation candidate \\
+D16B_SAKT_eps10 & SAKT & LIRE-DP_a0p5 & imd_low30_vs_rest & 10.000000 & 0.0036 ± 0.0008 & 0.0001 ± 0.0001 & -0.0020 ± 0.0021 & +0.0012 ± 0.0041 & -0.0012 ± 0.0041 & overall utility improves, but fairness does not transfer to SAKT \\
+\bottomrule
+\end{tabular}

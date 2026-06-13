@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrl}
+\toprule
+Method & epsilon & delta_auc & delta_group1_auc & delta_auc_gap & delta_signed & interpretation \\
+\midrule
+GPR-DP_lam0p005 & 10.000000 & 0.000300 & 0.000300 & -0.000000 & 0.000000 & minimal positive signal \\
+GPR-DP_lam0p01 & 10.000000 & 0.000500 & 0.000400 & 0.000100 & -0.000100 & utility improves; fairness not improved \\
+WARM-GPR_lam0p02_w3 & 10.000000 & 0.000700 & 0.000800 & -0.000100 & 0.000100 & weak Pareto-consistent signal \\
+CAPR-DP_lam0p02_w3_cap0p25 & 10.000000 & -0.000000 & -0.000000 & -0.000000 & 0.000000 & controls clipping pressure but fairness-neutral \\
+CLIP-C1p5 & 10.000000 & -0.038200 & -0.034000 & -0.007100 & 0.007100 & mechanism evidence; large utility cost \\
+\bottomrule
+\end{tabular}

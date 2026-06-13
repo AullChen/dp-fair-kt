@@ -1,0 +1,4 @@
+Method,Family,epsilon,delta_auc,delta_brier,delta_group1_auc,delta_auc_gap,delta_signed,interpretation
+LIRE-DP_a0p5,low_imd_residual_expert,10.0,-0.0032 ± 0.0040,0.0000 ± 0.0006,0.0053 ± 0.0038,-0.0062 ± 0.0062,0.0062 ± 0.0062,promising Pareto candidate
+LIRE-WGPR_a0p5_lam0p02_w3,low_imd_expert_warm_pairrank,10.0,-0.0026 ± 0.0042,-0.0000 ± 0.0006,0.0062 ± 0.0039,-0.0067 ± 0.0062,0.0067 ± 0.0062,best ε=10 DKT mitigation candidate
+CLIP-C1p5,clip_threshold_baseline,10.0,-0.0382 ± 0.0056,0.0187 ± 0.0041,-0.0340 ± 0.0062,-0.0071 ± 0.0028,0.0071 ± 0.0028,"mechanism baseline, not practical mitigation"

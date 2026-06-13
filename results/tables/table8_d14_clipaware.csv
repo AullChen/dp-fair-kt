@@ -1,0 +1,6 @@
+Method,epsilon,delta_auc,delta_group1_auc,delta_auc_gap,delta_signed,interpretation
+GPR-DP_lam0p005,10.0,0.0003,0.0003,-0.0,0.0,minimal positive signal
+GPR-DP_lam0p01,10.0,0.0005,0.0004,0.0001,-0.0001,utility improves; fairness not improved
+WARM-GPR_lam0p02_w3,10.0,0.0007,0.0008,-0.0001,0.0001,weak Pareto-consistent signal
+CAPR-DP_lam0p02_w3_cap0p25,10.0,-0.0,-0.0,-0.0,0.0,controls clipping pressure but fairness-neutral
+CLIP-C1p5,10.0,-0.0382,-0.034,-0.0071,0.0071,mechanism evidence; large utility cost

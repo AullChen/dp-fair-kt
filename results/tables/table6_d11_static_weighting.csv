@@ -1,0 +1,7 @@
+Attribute,epsilon,Method,delta_auc_vs_dp,delta_group1_auc_vs_dp,delta_auc_gap_vs_dp,interpretation
+imd_low30_vs_rest,10.0,MDW-DP_b0p5,-0.0039,-0.0039,-0.0002,gap shrinks only with utility/group1 loss
+imd_low30_vs_rest,10.0,MDW-DP_b0p75,-0.0005,-0.0004,-0.0002,negligible
+imd_low30_vs_rest,10.0,UPW-DP_a2,-0.0034,-0.0033,-0.0001,negligible
+imd_low30_vs_rest,1.0,MDW-DP_b0p5,0.0013,0.0017,0.0002,utility improves but gap not reduced
+imd_low30_vs_rest,1.0,MDW-DP_b0p75,0.0006,0.0007,0.0001,utility improves but gap not reduced
+imd_low30_vs_rest,1.0,UPW-DP_a2,0.0036,0.0036,0.0003,utility improves but gap not reduced
